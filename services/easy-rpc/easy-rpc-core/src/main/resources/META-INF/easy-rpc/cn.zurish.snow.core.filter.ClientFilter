@@ -1,0 +1,3 @@
+clientLogFilterImpl=cn.zurish.snow.core.filter.client.ClientLogFilterImpl
+directInvokeFilterImpl=cn.zurish.snow.core.filter.client.DirectInvokeFilterImpl
+groupFilterImpl=cn.zurish.snow.core.filter.client.GroupFilterImpl

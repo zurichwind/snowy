@@ -1,0 +1,4 @@
+fastJson=cn.zurish.snow.core.serialize.fastjson.FastJsonSerializeFactory
+hessian=cn.zurish.snow.core.serialize.hessian.HessianSerializeFactory
+jdk=cn.zurish.snow.core.serialize.jdk.JdkSerializeFactory
+kryo=cn.zurish.snow.core.serialize.kryo.KryoSerializeFactory

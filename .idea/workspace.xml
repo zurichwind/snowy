@@ -4,39 +4,143 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frameworks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-spring-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/easy-rpc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/registry-rpc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/test-rpc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/test-rpc/src/main/java/cn/zurish/snow/test/exception/SnowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/test-rpc/src/main/java/cn/zurish/snow/test/wind0/route/LoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/test-rpc/src/main/java/cn/zurish/snow/test/wind0/route/SnowRpcLoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/test-rpc/src/main/java/cn/zurish/snow/test/wind0/route/impl/ConsistentHashStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/test-rpc/src/main/java/cn/zurish/snow/test/wind0/route/impl/LFUStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/test-rpc/src/main/java/cn/zurish/snow/test/wind0/route/impl/LRUStrategy.java" afterDir="false" />
+    <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/client/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/client/ConnectionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/client/RpcReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/client/RpcReferenceWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/ChannelFuturePollingRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/ChannelFutureWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/RpcDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/RpcEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/RpcInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/RpcProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/ServerServiceSemaphoreWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/annotations/SPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/cache/CommonClientCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/cache/CommonServerCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/config/ClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/config/PropertiesBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/config/PropertiesLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/constants/RpcConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/RpcDestoryEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/RpcEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/RpcListenerLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/RpcNodeUpdateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/RpcUpdateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/data/ProviderNodeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/data/URLChangeWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/listener/ProviderNodeUpdateListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/listener/RpcListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/listener/ServiceDestoryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/event/listener/ServiceUpdateListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/exception/MaxServiceLimitRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/exception/RpcException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/common/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/dispatcher/ServerChannelDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/ClientFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/ServerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/client/ClientFilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/client/ClientLogFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/client/DirectInvokeFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/client/GroupFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/server/ServerAfterFilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/server/ServerBeforeFilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/server/ServerLogFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/server/ServerServiceAfterLimitFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/server/ServerServiceBeforeLimitFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/filter/server/ServerTokenFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/proxy/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/proxy/jdk/JDKClientInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/proxy/jdk/JDKProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/registry/AbstractRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/registry/RegistryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/registry/URL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/registry/nacos/NacosUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/registry/nacos/SnowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/registry/zookeeper/AbstractZookeeperClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/registry/zookeeper/CuratorZookeeperClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/registry/zookeeper/ZookeeperRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/router/RandomRouterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/router/RotateRouterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/router/Router.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/router/Selector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/serialize/SerializeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/serialize/fastjson/FastJsonSerializeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/serialize/hessian/HessianSerializeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/serialize/jdk/JdkSerializeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/serialize/kryo/KryoSerializeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/server/MaxConnectionLimitHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/server/ServerChannelReadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/server/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/server/ServerShutdownHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/server/ServiceWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/spi/ExtensionLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/spi/MyDefindClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/java/cn/zurish/snow/core/spi/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/META-INF/easy-rpc/cn.zurish.snow.core.common.event.listener.RpcListener" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/META-INF/easy-rpc/cn.zurish.snow.core.filter.ClientFilter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/META-INF/easy-rpc/cn.zurish.snow.core.filter.ServerFilter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/META-INF/easy-rpc/cn.zurish.snow.core.proxy.ProxyFactory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/META-INF/easy-rpc/cn.zurish.snow.core.registry.RegistryService" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/META-INF/easy-rpc/cn.zurish.snow.core.router.Router" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/META-INF/easy-rpc/cn.zurish.snow.core.serialize.SerializeFactory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/rpc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/src/main/resources/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-spring-starter/src/main/java/cn/zurish/snow/rpc/spring/starter/common/EasyRpcReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-spring-starter/src/main/java/cn/zurish/snow/rpc/spring/starter/common/EasyRpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-spring-starter/src/main/java/cn/zurish/snow/rpc/spring/starter/config/RpcClientAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-spring-starter/src/main/java/cn/zurish/snow/rpc/spring/starter/config/RpcServerAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-spring-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-consumer/src/main/java/cn/zurish/snow/rpc/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-consumer/src/main/java/cn/zurish/snow/rpc/consumer/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-consumer/src/main/resources/rpc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-interface/src/main/java/cn/zurish/snow/rpc/interfaces/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-interface/src/main/java/cn/zurish/snow/rpc/interfaces/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/src/main/java/cn/zurish/snow/rpc/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/src/main/java/cn/zurish/snow/rpc/provider/service/impl/DataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/src/main/java/cn/zurish/snow/rpc/provider/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/src/main/resources/rpc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-spring-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/easy-rpc/easy-rpc-spring-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/easy-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/easy-rpc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/registry-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/registry-rpc/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -46,6 +150,9 @@
         <option name="userSettingsFile" value="C:\A\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -61,20 +168,80 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "C:/C/IdeaProjects/Projects/RPC/snow",
+    "last_opened_file_path": "C:/C/IdeaProjects/Projects/RPC/snow/services/easy-rpc/rpc-framework-consumer/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\C\IdeaProjects\Projects\RPC\snow\services\easy-rpc\rpc-framework-consumer\src\main\resources" />
+      <recent name="C:\C\IdeaProjects\Projects\RPC\snow\services\easy-rpc\easy-rpc-core\src\main\java\cn\zurish\snow\core\registry" />
+      <recent name="C:\C\IdeaProjects\Projects\RPC\snow\services\easy-rpc\easy-rpc-core\src\main\resources\META-INF\easy-rpc" />
+      <recent name="C:\C\IdeaProjects\Projects\RPC\snow\services\easy-rpc\easy-rpc-core\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\C\IdeaProjects\Projects\RPC\snow\services\easy-rpc\easy-rpc-core\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.zurish.snow.core.registry.nacos" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zurish.snow.core.spi.Test" />
+      <module name="easy-rpc-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zurish.snow.core.spi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rpc-framework-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zurish.snow.rpc.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rpc-framework-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zurish.snow.rpc.provider.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -84,14 +251,56 @@
       <option name="presentableId" value="Default" />
       <updated>1703732878422</updated>
       <workItem from="1703732879648" duration="977000" />
-      <workItem from="1703817201465" duration="317000" />
+      <workItem from="1703817201465" duration="3225000" />
+      <workItem from="1703820440302" duration="293000" />
+      <workItem from="1703900959319" duration="8968000" />
+      <workItem from="1703990450947" duration="1708000" />
+      <workItem from="1704002588463" duration="17384000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1703817673138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703817673138</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/services/easy-rpc/rpc-framework-provider/src/main/java/cn/zurish/snow/rpc/provider/ProviderApplication.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.CompoundEnumeration" memberName="index" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

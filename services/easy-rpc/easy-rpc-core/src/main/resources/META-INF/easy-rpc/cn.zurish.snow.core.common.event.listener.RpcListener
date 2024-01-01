@@ -1,0 +1,3 @@
+providerNodeUpdateListener=cn.zurish.snow.core.common.event.listener.ProviderNodeUpdateListener
+serviceDestroyListener=cn.zurish.snow.core.common.event.listener.ServiceDestoryListener
+serviceUpdateListener=cn.zurish.snow.core.common.event.listener.ServiceUpdateListener

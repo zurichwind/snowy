@@ -1,0 +1,4 @@
+serverLogFilterImpl=cn.zurish.snow.core.filter.server.ServerLogFilterImpl
+serverTokenFilterImpl=cn.zurish.snow.core.filter.server.ServerTokenFilterImpl
+serverServiceBeforeLimitFilterImpl=cn.zurish.snow.core.filter.server.ServerServiceBeforeLimitFilterImpl
+serverServiceAfterLimitFilterImpl=cn.zurish.snow.core.filter.server.ServerServiceAfterLimitFilterImpl

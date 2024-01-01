@@ -1,0 +1,2 @@
+jdk=cn.zurish.snow.core.proxy.jdk.JDKProxyFactory
+javassist=cn.zurish.snow.core.proxy.javassist.JavassistProxyFactory

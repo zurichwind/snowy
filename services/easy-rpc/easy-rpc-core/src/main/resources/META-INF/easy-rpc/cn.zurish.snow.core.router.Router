@@ -1,0 +1,2 @@
+random=cn.zurish.snow.core.router.RandomRouterImpl
+rotate=cn.zurish.snow.core.router.RotateRouterImpl

@@ -1,0 +1,2 @@
+cn.zurish.snow.rpc.spring.starter.config.RpcServerAutoConfiguration
+cn.zurish.snow.rpc.spring.starter.config.RpcClientAutoConfiguration
