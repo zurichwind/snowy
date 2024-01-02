@@ -5,4 +5,5 @@ package cn.zurish.snow.core.rpc.annotation;
  * 2024/1/1 23:09
  */
 public @interface Service {
+
 }

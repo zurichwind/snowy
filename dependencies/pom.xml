@@ -39,6 +39,10 @@
         <jackson.version>2.15.3</jackson.version>
         <fastjson2.version>2.0.40</fastjson2.version>
         <spring-jdbc.version>6.0.9</spring-jdbc.version>
+        <nacos-client.versin>2.2.4</nacos-client.versin>
+        <kryo.version>5.5.0</kryo.version>
+        <hessian.verion>4.0.66</hessian.verion>
+        <protostuff.version>1.8.0</protostuff.version>
 
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -48,6 +52,35 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>io.protostuff</groupId>
+                <artifactId>protostuff-runtime</artifactId>
+                <version>${protostuff.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.protostuff</groupId>
+                <artifactId>protostuff-core</artifactId>
+                <version>${protostuff.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.caucho</groupId>
+                <artifactId>hessian</artifactId>
+                <version>${hessian.verion}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.esotericsoftware</groupId>
+                <artifactId>kryo</artifactId>
+                <version>${kryo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.nacos</groupId>
+                <artifactId>nacos-client</artifactId>
+                <version>${nacos-client.versin}</version>
+            </dependency>
 
 
             <dependency>

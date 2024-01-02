@@ -4,52 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="feature: first commit">
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/entity/RpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/entity/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/PackageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/RpcError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/SerializerCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/exception/SerializeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/exception/SnowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/factory/SingletonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/factory/ThreadPoolFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/util/NacosUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/util/ReflectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/util/RpcMessageChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/annotation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/annotation/ServiceScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/codec/CommonDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/codec/CommonEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/handler/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/hook/ShutdownHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/loadbalancer/LoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/loadbalancer/RandomLoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/loadbalancer/RoundRobinLoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/provider/ServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/provider/ServiceProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/registry/NacosServiceDiscovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/registry/NacosServiceRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/registry/ServiceDiscovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/registry/ServiceRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/serializer/CommonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/serializer/HessianSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/serializer/JsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/serializer/KryoSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/serializer/ProtobufSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/AbstractRpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/RpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/RpcClientProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/RpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/ChannelProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/UnprocessedRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="feature: my-rpc first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/entity/RpcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/entity/RpcRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/entity/RpcResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/entity/RpcResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/PackageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/PackageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/ResponseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/RpcError.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/RpcError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/SerializerCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/enumeration/SerializerCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/exception/SerializeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/exception/SerializeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/exception/SnowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/exception/SnowException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/annotation/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/annotation/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +154,8 @@
       <workItem from="1703900959319" duration="8968000" />
       <workItem from="1703990450947" duration="1708000" />
       <workItem from="1704002588463" duration="17384000" />
-      <workItem from="1704099361096" duration="4582000" />
+      <workItem from="1704099361096" duration="5402000" />
+      <workItem from="1704163393436" duration="1708000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -212,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704099740428</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature: my-rpc first commit">
+      <option name="closed" value="true" />
+      <created>1704123341600</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704123341600</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +211,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="feature: project easy-rpc finished" />
     <MESSAGE value="feature: first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: first commit" />
+    <MESSAGE value="feature: my-rpc first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: my-rpc first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
