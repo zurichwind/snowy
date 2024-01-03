@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="feature: 完成服务发现及注册">
+      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/socket/client/SocketClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/util/ReflectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/util/ReflectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/AbstractRpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/AbstractRpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/RpcClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/RpcClientProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +78,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.zurish.snow.core.rpc.registry" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\C\IdeaProjects\Projects\RPC\snow\services\easy-rpc\rpc-framework-consumer\src\main\resources" />
       <recent name="C:\C\IdeaProjects\Projects\RPC\snow\services\easy-rpc\easy-rpc-core\src\main\java\cn\zurish\snow\core\registry" />
@@ -144,7 +151,7 @@
       <workItem from="1704002588463" duration="17384000" />
       <workItem from="1704099361096" duration="5402000" />
       <workItem from="1704163393436" duration="6538000" />
-      <workItem from="1704249674972" duration="4186000" />
+      <workItem from="1704249674972" duration="5977000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -226,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704257090244</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feature: 完成服务发现及注册">
+      <option name="closed" value="true" />
+      <created>1704263265986</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704263265986</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
