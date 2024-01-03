@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="feature: my-rpc" />
+    <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="feature: 完成服务发现及注册">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +144,7 @@
       <workItem from="1704002588463" duration="17384000" />
       <workItem from="1704099361096" duration="5402000" />
       <workItem from="1704163393436" duration="6538000" />
-      <workItem from="1704249674972" duration="1235000" />
+      <workItem from="1704249674972" duration="4186000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -192,7 +194,39 @@
       <option name="project" value="LOCAL" />
       <updated>1704250787681</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feature: 完成接口类">
+      <option name="closed" value="true" />
+      <created>1704251182521</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704251182521</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feature: 完成远程调用处理器">
+      <option name="closed" value="true" />
+      <created>1704251582846</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704251582846</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feature: 完成序列化">
+      <option name="closed" value="true" />
+      <created>1704252219996</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704252219996</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feature: 完成服务发现及注册">
+      <option name="closed" value="true" />
+      <created>1704257090244</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704257090244</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +250,11 @@
     <MESSAGE value="feature: first commit" />
     <MESSAGE value="feature: my-rpc first commit" />
     <MESSAGE value="feature: my-rpc" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: my-rpc" />
+    <MESSAGE value="feature: 完成接口类" />
+    <MESSAGE value="feature: 完成远程调用处理器" />
+    <MESSAGE value="feature: 完成序列化" />
+    <MESSAGE value="feature: 完成服务发现及注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 完成服务发现及注册" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
