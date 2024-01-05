@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="feature: 完成服务发现及注册">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/hook/ShutdownHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/hook/ShutdownHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/ChannelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/ChannelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/UnprocessedRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/UnprocessedRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/socket/client/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/socket/client/SocketClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="feature: 完成服务发现及注册" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +147,7 @@
       <workItem from="1704163393436" duration="6538000" />
       <workItem from="1704249674972" duration="7552000" />
       <workItem from="1704349993755" duration="1198000" />
-      <workItem from="1704420419695" duration="611000" />
+      <workItem from="1704420419695" duration="1837000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -255,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704273724361</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feature: 完成服务发现及注册">
+      <option name="closed" value="true" />
+      <created>1704421777541</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704421777541</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
