@@ -10,10 +10,14 @@ import lombok.extern.slf4j.Slf4j;
  * 2024/1/1 23:14
  */
 @Slf4j
-@Getter
 public class ShutdownHook {
 
     private static final ShutdownHook shutdownHook = new ShutdownHook();
+
+    public static ShutdownHook getShutdownHook() {
+        return shutdownHook;
+    }
+
 
     public void addClearAllHook() {
         log.info("关闭后将自动注销所有服务");

@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822d4706-3c83-4869-89c2-fa0a768679fe" name="更改" comment="feature: 完成服务发现及注册">
-      <change afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/socket/client/SocketClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/util/ReflectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-common/src/main/java/cn/zurish/snow/rpc/common/util/ReflectUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/AbstractRpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/AbstractRpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/RpcClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/RpcClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/hook/ShutdownHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/hook/ShutdownHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/ChannelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/ChannelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/NettyClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/UnprocessedRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/client/UnprocessedRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/netty/server/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/socket/client/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/my-rpc/rpc-core/src/main/java/cn/zurish/snow/core/rpc/transport/socket/client/SocketClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +155,9 @@
       <workItem from="1704002588463" duration="17384000" />
       <workItem from="1704099361096" duration="5402000" />
       <workItem from="1704163393436" duration="6538000" />
-      <workItem from="1704249674972" duration="5977000" />
+      <workItem from="1704249674972" duration="7552000" />
+      <workItem from="1704349993755" duration="1198000" />
+      <workItem from="1704420419695" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -241,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704263265986</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feature: 完成服务发现及注册">
+      <option name="closed" value="true" />
+      <created>1704273724361</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704273724361</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
